@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.link-text-size {
+    font-size: 12px;
+}
+
+section#home {
+    height: 100vh;
+}
+
+#nav-mobile {
+    text-transform: uppercase;
+}
+
+.size-icon {
+    font-size: 15px;
+}
+
+
+/** Classes for icon of texfield input in the section contact **/
+.input-field .postfix ~ input { width: 80%; width:calc(100% - 3rem);  margin-left:0px; margin-right: 3rem!important; }
+.input-field .postfix {
+    position: absolute;
+    width: 3rem;
+    right: 0px;
+    font-size: 2rem;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+}
+.input-field .postfix.active {
+    color: #177a70;
+}
+
+
+/* Selectores para enlaces */
+a[href*=".com"] {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+div.social-media i {
+    font-size: 15px;
+}
+
